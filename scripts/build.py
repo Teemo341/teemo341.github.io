@@ -45,7 +45,7 @@ def render(lang):
     projects = ''.join(f'<li class="entry"><div class="entry-heading"><h3>{e(x["title"])}</h3><span class="date">{e(x["year"])}</span></div><p class="detail">{e(x["role"])}</p></li>' for x in c['projects'])
     interests = ''.join(f'<li>{e(x)}</li>' for x in c['interests'])
     r = c['research']
-    paragraphs = ''.join(f'<p>{e(x)}</p>' for x in [r['interests_sentence'] + ' ' + r['foundations'], r['tooling'] + ' ' + r['engineering']])
+    paragraphs = ''.join(f'<p>{e(x)}</p>' for x in [r['interests_sentence'] + ' ' + r['current_work'], r['tooling'] + ' ' + r['engineering']])
     person = DATA['person']
     publication_count = f'{len(DATA["publications"])} 篇研究工作' if cn else f'{len(DATA["publications"])} works'
     en_url = '../index.html' if cn else 'index.html'
@@ -98,7 +98,7 @@ def render(lang):
         <img class="portrait" src="{prefix}assets/portrait.jpg" alt="{e(c['portrait_alt'])}" width="144" height="192" fetchpriority="high">
       </div>
       <div class="contact"><a href="mailto:{e(person['email'])}">{e(person['email'])}</a><a href="tel:{e(person['phone_uri'])}">{e(person['phone'])}</a></div>
-      <div class="research"><h2 class="small-heading">{e(c['research_heading'])}</h2><ul class="interest-list">{interests}</ul><div class="profile-copy">{paragraphs}</div></div>
+      <div class="research"><h2 class="sr-only">{e(c['research_heading'])}</h2><ul class="interest-list">{interests}</ul><div class="profile-copy">{paragraphs}</div></div>
     </section>
     <section id="publications" aria-labelledby="publications-heading">
       <div class="section-heading"><h2 id="publications-heading">{e(c['publication_heading'])}</h2><span>{e(publication_count)}</span></div>

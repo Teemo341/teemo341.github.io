@@ -1,5 +1,6 @@
 """Check generated pages, local assets and optional PDF publication links."""
 import argparse
+import unicodedata
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 from common import ROOT, load_data, publication_link, validate
@@ -58,8 +59,12 @@ def main():
     if args.pdf:
         from pypdf import PdfReader
         wanted = {publication_link(p, data, absolute=True) for p in data['publications']}
-        for stem in ['Shiyu_Shen_Academic_CV', 'Shiyu_Shen_Academic_CV_CN']:
+        for lang, stem in [('en', 'Shiyu_Shen_Academic_CV'), ('zh', 'Shiyu_Shen_Academic_CV_CN')]:
             pdf = PdfReader(ROOT / 'cv' / (stem + '.pdf'))
+            normalize = lambda text: ''.join(unicodedata.normalize('NFKC', text).split())
+            pdf_text = normalize(''.join(page.extract_text() or '' for page in pdf.pages))
+            for key, sentence in data[lang]['research'].items():
+                assert normalize(sentence) in pdf_text, f'{stem}: stale or missing research text: {key}'
             links = set()
             for page in pdf.pages:
                 for ref in page.get('/Annots', []):

@@ -47,7 +47,7 @@ def render_language(data, language):
     lines = []
     lines.append(r'\section{' + tex(localized['research_heading']) + '}')
     lines.append(r'\begin{itemize}')
-    for key in ['interests_sentence', 'foundations', 'tooling', 'engineering']:
+    for key in ['interests_sentence', 'current_work', 'tooling', 'engineering']:
         lines.append(r'  \item ' + tex(localized['research'][key]))
     lines.append(r'\end{itemize}')
 

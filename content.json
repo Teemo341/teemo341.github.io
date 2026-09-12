@@ -11,7 +11,7 @@
     "download": "Download CV",
     "back_top": "Back to top",
     "portrait_alt": "Portrait of Shiyu Shen",
-    "description": "Shiyu Shen, Ph.D. student at Nankai University. Research in uncertainty in machine learning, Bayesian deep learning, and domain generalization.",
+    "description": "Shiyu Shen, Ph.D. student at Nankai University. Research in uncertainty in machine learning, Bayesian deep learning, domain generalization, and AI for Science. Intern at Zhejiang Lab.",
     "nav": {
       "about": "About",
       "publications": "Publications",
@@ -23,7 +23,8 @@
     "interests": [
       "Uncertainty in Machine Learning",
       "Bayesian Deep Learning",
-      "Domain Generalization"
+      "Domain Generalization",
+      "AI for Science"
     ],
     "publication_heading": "Publications & Preprints",
     "experience_heading": "Research & Industry Experience",
@@ -107,7 +108,7 @@
     ],
     "research": {
       "interests_sentence": "My research focuses on uncertainty in machine learning, Bayesian deep learning, and domain generalization.",
-      "foundations": "In-depth understanding of the foundations of diffusion/flow models and LLMs.",
+      "current_work": "Now I also work in AI for Science as an intern in Zhejiang Lab.",
       "tooling": "Proficient in PyTorch, verl, and slime, with hands-on experience in large-scale pretraining, SFT and RL.",
       "engineering": "Extensive project experience spanning model development, system integration, and deployment."
     }
@@ -124,7 +125,7 @@
     "download": "下载中文简历",
     "back_top": "返回顶部",
     "portrait_alt": "沈石禹的个人照片",
-    "description": "沈石禹，南开大学博士研究生。研究方向为机器学习中的不确定性、贝叶斯深度学习与领域泛化。",
+    "description": "沈石禹，南开大学博士研究生。研究方向为机器学习中的不确定性、贝叶斯深度学习、领域泛化与 AI for Science。目前在之江实验室实习。",
     "nav": {
       "about": "个人简介",
       "publications": "学术论文",
@@ -136,7 +137,8 @@
     "interests": [
       "机器学习中的不确定性",
       "贝叶斯深度学习",
-      "领域泛化"
+      "领域泛化",
+      "AI for Science"
     ],
     "publication_heading": "学术论文与预印本",
     "experience_heading": "实习经历",
@@ -220,7 +222,7 @@
     ],
     "research": {
       "interests_sentence": "研究方向：机器学习中的不确定性、贝叶斯深度学习、领域泛化。",
-      "foundations": "深入理解扩散模型/流模型以及大语言模型的基本原理。",
+      "current_work": "目前，我也在之江实验室实习，从事 AI for Science 研究。",
       "tooling": "熟练使用 PyTorch、verl 和 slime，具有大规模预训练、SFT 和 RL 的实战经验。",
       "engineering": "有丰富的项目经历，涵盖模型开发、系统集成与部署。"
     }
