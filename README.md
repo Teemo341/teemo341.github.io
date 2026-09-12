@@ -2,8 +2,8 @@
 
 默认英文，右上角可切换中文。网页和两份 LaTeX 共用 `content.json`，论文标题在网页及 PDF 中均为黑色超链接。
 
-- 主页（启用 Pages 后）：https://teemo341.github.io/io/
-- 中文：https://teemo341.github.io/io/zh/
+- 主页：https://teemo341.github.io/
+- 中文：https://teemo341.github.io/zh/
 - 英文简历：[LaTeX](cv/Shiyu_Shen_Academic_CV.tex) · [PDF](cv/Shiyu_Shen_Academic_CV.pdf)
 - 中文简历：[LaTeX](cv/Shiyu_Shen_Academic_CV_CN.tex) · [PDF](cv/Shiyu_Shen_Academic_CV_CN.pdf)
 
@@ -51,6 +51,6 @@ python3 -m unittest discover -s tests
 
 ## GitHub Pages
 
-仓库名为 `io`，主页路径包含 `/io/`，无需改名。在 **Settings → Pages → Build and deployment** 选择 **Deploy from a branch → main → /(root) → Save**。启用后，推送生成的静态网页即可触发发布。[GitHub 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
+仓库名为 `teemo341.github.io`，主页直接发布在根域名 `https://teemo341.github.io/`。在 **Settings → Pages → Build and deployment** 选择 **Deploy from a branch → main → /(root) → Save**。启用后，推送生成的静态网页即可触发发布。[GitHub 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)。
 
 迁移域名或修改仓库名称时，更新 `site.base_url` 并重新生成网页与两份 CV，检查本地论文 PDF 链接。网站无需数据库或外部字体 CDN。
