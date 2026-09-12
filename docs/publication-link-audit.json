@@ -1,0 +1,194 @@
+{
+  "checked_at": "2026-09-12",
+  "scholar_access": "Direct Google Scholar access failed; every title was searched, with primary-source fallback. No Scholar citation IDs were fabricated.",
+  "records": [
+    {
+      "id": 1,
+      "authors": "Z. Wang, B. Pan, Shiyu Shen, T. Shi, and Z. Shi.",
+      "title": "Domain Generalization Guided by Large-Scale Pre-Trained Priors",
+      "venue": "",
+      "year": 2024,
+      "arxiv": "2406.05628",
+      "url": "https://arxiv.org/abs/2406.05628",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22Domain%20Generalization%20Guided%20by%20Large-Scale%20Pre-Trained%20Priors%22",
+      "verification_sources": [
+        "https://arxiv.org/abs/2406.05628"
+      ],
+      "notes": "Title and all five authors match the arXiv record; first submitted 2024-06-09. Scholar title search attempted; direct Scholar page inaccessible.",
+      "checked_at": "2026-09-12",
+      "scholar_direct_access": "failed: tool returned Internal Error / non-retryable URL error",
+      "status": "verified_link"
+    },
+    {
+      "id": 2,
+      "authors": "Y. Tan, J. Wu, Y. Liu, Shiyu Shen, X. Xu, and B. Pan.",
+      "title": "A Lightweight Transformer-Based Spatiotemporal Analysis Prediction Algorithm for High-Dimensional Meteorological Data",
+      "venue": "Remote Sensing",
+      "year": 2024,
+      "url": "https://doi.org/10.3390/rs16234545",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22A%20Lightweight%20Transformer-Based%20Spatiotemporal%20Analysis%20Prediction%20Algorithm%20for%20High-Dimensional%20Meteorological%20Data%22",
+      "verification_sources": [
+        "https://www.mdpi.com/journal/remotesensing/special_issues/C96U264RII",
+        "https://www.mdpi.com/2072-4292/16/23/4545"
+      ],
+      "notes": "Publisher MDPI special-issue search result confirms exact title, all six authors, Remote Sensing 16(23), 4545, and DOI; publication date 2024-12-04. Direct MDPI article fetch returned HTTP 429. Scholar title search attempted; direct Scholar page inaccessible.",
+      "checked_at": "2026-09-12",
+      "scholar_direct_access": "failed: tool returned Internal Error / non-retryable URL error",
+      "status": "verified_link"
+    },
+    {
+      "id": 3,
+      "authors": "Shiyu Shen, B. Pan, Y. Wang, Y. Liu, and Z. Shi.",
+      "title": "A Second Order Stationarity Based Confidence Assessment Method for Temperature Forecast",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/10852282",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22A%20Second%20Order%20Stationarity%20Based%20Confidence%20Assessment%20Method%20for%20Temperature%20Forecast%22",
+      "verification_sources": [
+        "https://ieeexplore.ieee.org/document/10852282",
+        "https://levir.buaa.edu.cn/publications/index.html",
+        "https://levir.buaa.edu.cn/static/bib/2025_Shiyu_Shen_Second-Order.txt"
+      ],
+      "notes": "Exact work and all five authors confirmed on coauthor laboratory publication page and its BibTeX. Laboratory Paper link points to IEEE document 10852282. IEEE search result confirms hyphenated title. IEEE direct page requires robot verification. Scholar indexed author-profile result explicitly lists this work, but the profile/search page could not be opened.",
+      "checked_at": "2026-09-12",
+      "scholar_direct_access": "failed: tool returned Internal Error / non-retryable URL error",
+      "status": "verified_link",
+      "scholar_indexed_profile": "https://scholar.google.com/citations?hl=en&user=rNZgWagAAAAJ"
+    },
+    {
+      "id": 4,
+      "authors": "Shiyu Shen, B. Pan, Z. Zhang, and Z. Shi.",
+      "title": "Hyperspectral Image Generation with Unmixing Guided Diffusion Model",
+      "venue": "",
+      "year": 2025,
+      "arxiv": "2506.02601",
+      "review": "IEEE TGRS",
+      "url": "https://arxiv.org/abs/2506.02601",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22Hyperspectral%20Image%20Generation%20with%20Unmixing%20Guided%20Diffusion%20Model%22",
+      "verification_sources": [
+        "https://arxiv.org/abs/2506.02601"
+      ],
+      "notes": "Title and authors Shiyu Shen, Bin Pan, Ziye Zhang, Zhenwei Shi match the arXiv metadata; first submitted 2025-06-03, latest revision shown 2025-08-19. Scholar title search attempted; direct Scholar page inaccessible.",
+      "checked_at": "2026-09-12",
+      "scholar_direct_access": "failed: tool returned Internal Error / non-retryable URL error",
+      "status": "verified_link"
+    },
+    {
+      "id": 5,
+      "authors": "Shiyu Shen, B. Pan, and G. Xue.",
+      "title": "A Pretrained Probabilistic Transformer for City-Scale Traffic Volume Prediction",
+      "venue": "",
+      "year": 2025,
+      "arxiv": "2506.02654",
+      "review": "IEEE TMM",
+      "url": "https://arxiv.org/abs/2506.02654",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22A%20Pretrained%20Probabilistic%20Transformer%20for%20City-Scale%20Traffic%20Volume%20Prediction%22",
+      "verification_sources": [
+        "https://arxiv.org/abs/2506.02654"
+      ],
+      "notes": "Title and all three authors match arXiv metadata; first submitted 2025-06-03. Scholar indexed Shiyu Shen profile result explicitly lists title, authors and arXiv ID, but direct Scholar page inaccessible.",
+      "checked_at": "2026-09-12",
+      "scholar_direct_access": "failed: tool returned Internal Error / non-retryable URL error",
+      "status": "verified_link",
+      "scholar_indexed_profile": "https://scholar.google.com/citations?hl=en&user=rNZgWagAAAAJ"
+    },
+    {
+      "id": 6,
+      "authors": "Shiyu Shen, Z. Gao, T. Chai, Y. Huang, and B. Pan.",
+      "title": "Contrastive Heliophysical Image Pretraining for Solar Dynamics Observatory Records",
+      "venue": "",
+      "year": 2025,
+      "arxiv": "2511.22958",
+      "url": "https://arxiv.org/abs/2511.22958",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22Contrastive%20Heliophysical%20Image%20Pretraining%20for%20Solar%20Dynamics%20Observatory%20Records%22",
+      "verification_sources": [
+        "https://arxiv.org/abs/2511.22958"
+      ],
+      "notes": "Title and all five authors match arXiv metadata. Current arXiv v2 record is marked withdrawn by arXiv Admin (2026-04-28), with no current PDF. Do not represent as an available normal preprint download. Preserve CV text unless the user requests status correction; inform user of status and allow their local PDF or updated URL. Scholar indexed profile search snippet lists the title, but direct Scholar page inaccessible.",
+      "checked_at": "2026-09-12",
+      "scholar_direct_access": "failed: tool returned Internal Error / non-retryable URL error",
+      "status": "verified_withdrawn_arxiv_record",
+      "scholar_indexed_profile": "https://scholar.google.com/citations?hl=en&user=rNZgWagAAAAJ"
+    },
+    {
+      "id": 7,
+      "title": "SmartSAM: Segment Ambiguous Objects like Smart Annotators",
+      "url": "https://openreview.net/forum?id=08pxmTLKTT",
+      "verification_sources": [
+        "https://openreview.net/forum?id=08pxmTLKTT",
+        "https://openreview.net/profile?id=~Zhe_Gao1",
+        "https://xbxsxp9.github.io/"
+      ],
+      "notes": "Exact title and all six authors matched in indexed OpenReview primary-source results. Direct OpenReview forum/PDF fetch currently presents a browser verification challenge. No arXiv ID was found; coauthor homepage paper link is only a placeholder. Keep CV's supplied year and venue.",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22SmartSAM%3A%20Segment%20Ambiguous%20Objects%20like%20Smart%20Annotators%22",
+      "scholar_status": "Attempted title search constrained to scholar.google.com. Shiyu Shen's indexed Google Scholar profile was found; direct profile access returned HTTP 429, so individual Scholar records could not all be inspected.",
+      "checked_date": "2026-09-12"
+    },
+    {
+      "id": 8,
+      "title": "Be Bayesian by Attachments to Catch More Uncertainty",
+      "url": "https://doi.org/10.1016/j.patcog.2026.113084",
+      "arxiv": "2310.13027",
+      "verification_sources": [
+        "https://research.buaa.edu.cn/en/publications/be-bayesian-by-attachments-to-catch-more-uncertainty/",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0031320326000476",
+        "https://arxiv.org/abs/2310.13027"
+      ],
+      "notes": "Institutional publication record confirms exact title, all five authors, Pattern Recognition 175 (2026), article 113084 and DOI. Publisher search result also matches; direct ScienceDirect fetch is 403. Scholar indexed author profile lists the work. Prefer DOI for the published paper; arXiv remains a free alternate.",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22Be%20Bayesian%20by%20Attachments%20to%20Catch%20More%20Uncertainty%22",
+      "scholar_status": "Attempted title search constrained to scholar.google.com. Shiyu Shen's indexed Google Scholar profile was found; direct profile access returned HTTP 429, so individual Scholar records could not all be inspected.",
+      "checked_date": "2026-09-12"
+    },
+    {
+      "id": 9,
+      "title": "Preserving Domain Generalization in Fine-Tuning via Joint Parameter Selection",
+      "url": "https://arxiv.org/abs/2508.16976",
+      "arxiv": "2508.16976",
+      "verification_sources": [
+        "https://arxiv.org/abs/2508.16976"
+      ],
+      "notes": "Exact title and all five authors verified on arXiv. A secondary Scilit indexed result mentions DOI 10.1109/TMM.2026.3703329 but its publisher destination was not verified, so recommend verified arXiv URL instead. Preserve user-supplied 2026 IEEE TMM venue rather than replacing publication date with the 2025 preprint date.",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22Preserving%20Domain%20Generalization%20in%20Fine-Tuning%20via%20Joint%20Parameter%20Selection%22",
+      "scholar_status": "Attempted title search constrained to scholar.google.com. Shiyu Shen's indexed Google Scholar profile was found; direct profile access returned HTTP 429, so individual Scholar records could not all be inspected.",
+      "checked_date": "2026-09-12"
+    },
+    {
+      "id": 10,
+      "title": "VideoTIR: Accurate Understanding for Long Videos with Efficient Tool-Integrated Reasoning",
+      "url": "https://arxiv.org/abs/2603.25021",
+      "arxiv": "2603.25021",
+      "verification_sources": [
+        "https://arxiv.org/abs/2603.25021",
+        "https://arxiv.org/html/2603.25021v1",
+        "https://fanq15.github.io/"
+      ],
+      "notes": "Exact supplied title and Shiyu Shen authorship verified in original arXiv manuscript. Coauthor Qi Fan's homepage lists ECCV 2026 with a slightly revised title and author order; do not silently change the supplied CV title or authors for this linking task.",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22VideoTIR%3A%20Accurate%20Understanding%20for%20Long%20Videos%20with%20Efficient%20Tool-Integrated%20Reasoning%22",
+      "scholar_status": "Attempted title search constrained to scholar.google.com. Shiyu Shen's indexed Google Scholar profile was found; direct profile access returned HTTP 429, so individual Scholar records could not all be inspected.",
+      "checked_date": "2026-09-12"
+    },
+    {
+      "id": 11,
+      "title": "Bayesian Domain Invariant Learning via Posterior Generalization of Parameter Distributions",
+      "url": "https://arxiv.org/abs/2310.16277",
+      "arxiv": "2310.16277",
+      "verification_sources": [
+        "https://arxiv.org/abs/2310.16277"
+      ],
+      "notes": "Exact title and all five authors verified on arXiv. The preprint submission is 2023; retain supplied CV's 2026/review metadata for this linking task rather than silently changing status.",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22Bayesian%20Domain%20Invariant%20Learning%20via%20Posterior%20Generalization%20of%20Parameter%20Distributions%22",
+      "scholar_status": "Attempted title search constrained to scholar.google.com. Shiyu Shen's indexed Google Scholar profile was found; direct profile access returned HTTP 429, so individual Scholar records could not all be inspected.",
+      "checked_date": "2026-09-12"
+    },
+    {
+      "id": 12,
+      "title": "A Distribution-Free Efficient Bayesian Framework for Domain Generalization",
+      "url": null,
+      "verification_sources": [],
+      "notes": "No exact work found after Scholar-domain search, full-title web search, and distinctive title plus author variants. Similar Distribution Free Domain Generalization (Tong et al., ICML 2023) is a different paper and must not be used. Leave title unlinked until a user-supplied PDF exists, then use project-relative PDF path.",
+      "scholar_query_url": "https://scholar.google.com/scholar?hl=en&q=%22A%20Distribution-Free%20Efficient%20Bayesian%20Framework%20for%20Domain%20Generalization%22",
+      "scholar_status": "Attempted title search constrained to scholar.google.com. Shiyu Shen's indexed Google Scholar profile was found; direct profile access returned HTTP 429, so individual Scholar records could not all be inspected.",
+      "checked_date": "2026-09-12"
+    }
+  ]
+}

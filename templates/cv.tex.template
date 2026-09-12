@@ -1,0 +1,88 @@
+% Generated from content.json by scripts/render_cv.py.
+% Edit the shared content or this layout template, then run scripts/build.py.
+% Compile from cv/: xelatex -interaction=nonstopmode -halt-on-error <filename>.tex
+% Requires XeLaTeX, fontspec, and (for Chinese) xeCJK plus Noto Sans SC / CJK SC
+% or the Fandol fonts supplied by a standard TeX Live Chinese installation.
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,top=0.8cm,bottom=0.8cm,left=1.55cm,right=1.55cm]{geometry}
+\usepackage{fontspec}
+@@CJK_SETUP@@
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\defaultfontfeatures{Ligatures=TeX}
+\IfFontExistsTF{TeX Gyre Heros}
+  {\setmainfont{TeX Gyre Heros}}
+  {\IfFontExistsTF{Arimo}
+    {\setmainfont{Arimo}}
+    {\setmainfont{Latin Modern Sans}}}
+
+\definecolor{navy}{HTML}{163A5F}
+\definecolor{slate}{HTML}{4B5563}
+\definecolor{rulegray}{HTML}{C9D1D9}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=navy,
+  linkcolor=navy,
+  pdfauthor={@@AUTHOR@@},
+  pdftitle={@@NAME@@ -- Academic Curriculum Vitae}
+}
+\urlstyle{same}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=1.25em,itemsep=0.5pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=2pt,topsep=3pt,parsep=0pt,partopsep=0pt}
+\titleformat{\section}
+  {\large\bfseries\color{navy}}
+  {}{0pt}{}
+  [\vspace{1pt}\color{rulegray}\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{3pt}
+
+\newcommand{\cvrow}[3]{%
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.30cm}X>{\raggedleft\arraybackslash}p{2.20cm}@{}}
+    \mbox{\textbf{#1}} & {\hyphenpenalty=10000\exhyphenpenalty=10000 #2} &
+    \textcolor{slate}{\mbox{#3}}
+  \end{tabularx}\vspace{2pt}
+}
+\newcommand{\projectline}[3]{%
+  \begin{tabularx}{\textwidth}{@{}X>{\raggedleft\arraybackslash}p{2.25cm}@{}}
+    \small\textbf{#1}\if\relax\detokenize{#2}\relax\else\textbf{:} #2\fi &
+    \small\textcolor{slate}{\mbox{#3}}
+  \end{tabularx}\vspace{0.5pt}
+}
+\newcommand{\me}{\textbf{@@AUTHOR@@}}
+\newcommand{\status}[1]{\textcolor{slate}{\textit{#1}}}
+% The inner explicit color also keeps titles black when urlcolor is changed.
+\newcommand{\papertitle}[2]{\href{#1}{\textcolor{black}{#2}}}
+
+\newcommand{\contactblock}{%
+  {\fontsize{25}{29}\selectfont\bfseries\color{navy} @@NAME@@}\\[3pt]
+  @@AFFILIATION@@\\[3pt]
+  \href{@@EMAIL_URI@@}{@@EMAIL@@}
+  \enspace\textcolor{rulegray}{|}\enspace
+  @@PHONE@@\\[3pt]
+  \url{@@GITHUB@@}\\[3pt]
+  \url{@@SCHOLAR@@}
+}
+\begin{document}
+\thispagestyle{empty}
+\IfFileExists{../assets/portrait.jpg}{%
+  \begin{minipage}[c]{0.17\textwidth}
+    \includegraphics[width=2.20cm,height=2.95cm,keepaspectratio]{../assets/portrait.jpg}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c]{0.80\textwidth}
+    \contactblock
+  \end{minipage}
+}{\contactblock}
+
+@@BODY@@
+\end{document}

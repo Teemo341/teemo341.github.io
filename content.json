@@ -1,0 +1,372 @@
+{
+  "en": {
+    "name": "Shiyu Shen",
+    "other_name": "沈石禹",
+    "university": "Nankai University",
+    "location": "Tianjin, China",
+    "role": "Ph.D. Student",
+    "academic": "Academic Profile",
+    "contents": "On this page",
+    "skip": "Skip to content",
+    "download": "Download CV",
+    "back_top": "Back to top",
+    "portrait_alt": "Portrait of Shiyu Shen",
+    "description": "Shiyu Shen, Ph.D. student at Nankai University. Research in uncertainty in machine learning, Bayesian deep learning, and domain generalization.",
+    "nav": {
+      "about": "About",
+      "publications": "Publications",
+      "education": "Education",
+      "experience": "Experience",
+      "projects": "Projects"
+    },
+    "research_heading": "Research Profile",
+    "interests": [
+      "Uncertainty in Machine Learning",
+      "Bayesian Deep Learning",
+      "Domain Generalization"
+    ],
+    "publication_heading": "Publications & Preprints",
+    "experience_heading": "Research & Industry Experience",
+    "project_heading": "Research & Engineering Projects",
+    "education": [
+      {
+        "degree": "Ph.D. studies",
+        "years": "2024–2028",
+        "awards": "National Scholarship"
+      },
+      {
+        "degree": "Master’s degree",
+        "years": "2021–2024",
+        "awards": "Gongneng Scholarship · Zhou Enlai Scholarship · National Scholarship"
+      },
+      {
+        "degree": "Bachelor’s degree",
+        "years": "2017–2021",
+        "awards": "Gongneng Scholarship"
+      }
+    ],
+    "experience": [
+      {
+        "organization": "Zhejiang Lab",
+        "project": "021 Code Agent",
+        "years": "2026–Present",
+        "role": "Design stepwise verifiable RL rewards."
+      },
+      {
+        "organization": "Zhejiang Lab",
+        "project": "021 Chemical LLM",
+        "years": "2025",
+        "role": "Lead SFT and GRPO; design curriculum learning."
+      },
+      {
+        "organization": "Zhejiang Lab",
+        "project": "021 Mathematics LLM",
+        "years": "2025",
+        "role": "Build CPT data."
+      },
+      {
+        "organization": "Yunqi Engineering Institute",
+        "project": "Intelligent Transportation",
+        "years": "2024",
+        "role": "Train traffic prediction and signal-control models."
+      },
+      {
+        "organization": "Zhejiang Lab",
+        "project": "AstrOne",
+        "years": "2024",
+        "role": "Lead SolarCLIP and SolarGPT development."
+      },
+      {
+        "organization": "Tianrang",
+        "project": "TRFold",
+        "years": "2021",
+        "role": ""
+      }
+    ],
+    "projects": [
+      {
+        "title": "Inertial Navigation High-Order Error Identification",
+        "year": "2025",
+        "role": "Project lead; big-data regression analysis."
+      },
+      {
+        "title": "Virtual–Real Intelligent Traffic Simulation Platform",
+        "year": "2025",
+        "role": "Traffic-volume prediction and signal control."
+      },
+      {
+        "title": "UAV Electro-Optical Imaging Teaching System",
+        "year": "2024",
+        "role": "Scene-generation subsystem."
+      },
+      {
+        "title": "Maritime Optical Data Analysis System",
+        "year": "2024",
+        "role": "Confidence-assessment subsystem."
+      }
+    ],
+    "research": {
+      "interests_sentence": "My research focuses on uncertainty in machine learning, Bayesian deep learning, and domain generalization.",
+      "foundations": "In-depth understanding of the foundations of diffusion/flow models and LLMs.",
+      "tooling": "Proficient in PyTorch, verl, and slime, with hands-on experience in large-scale pretraining, SFT and RL.",
+      "engineering": "Extensive project experience spanning model development, system integration, and deployment."
+    }
+  },
+  "zh": {
+    "name": "沈石禹",
+    "other_name": "Shiyu Shen",
+    "university": "南开大学",
+    "location": "天津，中国",
+    "role": "博士研究生",
+    "academic": "学术个人主页",
+    "contents": "页面导航",
+    "skip": "跳转到正文",
+    "download": "下载中文简历",
+    "back_top": "返回顶部",
+    "portrait_alt": "沈石禹的个人照片",
+    "description": "沈石禹，南开大学博士研究生。研究方向为机器学习中的不确定性、贝叶斯深度学习与领域泛化。",
+    "nav": {
+      "about": "个人简介",
+      "publications": "学术论文",
+      "education": "教育经历",
+      "experience": "实习经历",
+      "projects": "项目经历"
+    },
+    "research_heading": "研究概况",
+    "interests": [
+      "机器学习中的不确定性",
+      "贝叶斯深度学习",
+      "领域泛化"
+    ],
+    "publication_heading": "学术论文与预印本",
+    "experience_heading": "实习经历",
+    "project_heading": "项目经历",
+    "education": [
+      {
+        "degree": "博士研究生",
+        "years": "2024–2028",
+        "awards": "国家奖学金"
+      },
+      {
+        "degree": "硕士",
+        "years": "2021–2024",
+        "awards": "公能奖学金 · 周恩来奖学金 · 国家奖学金"
+      },
+      {
+        "degree": "学士",
+        "years": "2017–2021",
+        "awards": "公能奖学金"
+      }
+    ],
+    "experience": [
+      {
+        "organization": "之江实验室",
+        "project": "021 代码智能体",
+        "years": "2026–至今",
+        "role": "设计可验证的逐步 RL 奖励机制。"
+      },
+      {
+        "organization": "之江实验室",
+        "project": "021 化学大模型",
+        "years": "2025",
+        "role": "主导 SFT 与 GRPO；设计课程学习策略。"
+      },
+      {
+        "organization": "之江实验室",
+        "project": "021 数学大模型",
+        "years": "2025",
+        "role": "构建 CPT 数据。"
+      },
+      {
+        "organization": "之江实验室云启工研院",
+        "project": "智慧交通",
+        "years": "2024",
+        "role": "独立训练在途量预测模型和信号灯控制模型。"
+      },
+      {
+        "organization": "之江实验室",
+        "project": "AstrOne 天文大模型",
+        "years": "2024",
+        "role": "带队开发 SolarClip 模型、SolarGPT 模型。"
+      },
+      {
+        "organization": "天壤",
+        "project": "TRFold",
+        "years": "2021",
+        "role": ""
+      }
+    ],
+    "projects": [
+      {
+        "title": "基于大数据回归分析方法的惯导系统高阶误差辨识方法研究",
+        "year": "2025",
+        "role": "全权负责。"
+      },
+      {
+        "title": "虚实交互的智能交通仿真应用平台",
+        "year": "2025",
+        "role": "负责在途量预测分系统、信号灯控制分系统。"
+      },
+      {
+        "title": "无人机光电成像教学系统",
+        "year": "2024",
+        "role": "负责场景生成分系统。"
+      },
+      {
+        "title": "海上目标光学数据分析系统",
+        "year": "2024",
+        "role": "负责置信度评估分系统。"
+      }
+    ],
+    "research": {
+      "interests_sentence": "研究方向：机器学习中的不确定性、贝叶斯深度学习、领域泛化。",
+      "foundations": "深入理解扩散模型/流模型以及大语言模型的基本原理。",
+      "tooling": "熟练使用 PyTorch、verl 和 slime，具有大规模预训练、SFT 和 RL 的实战经验。",
+      "engineering": "有丰富的项目经历，涵盖模型开发、系统集成与部署。"
+    }
+  },
+  "publications": [
+    {
+      "id": 1,
+      "authors": "Z. Wang, B. Pan, Shiyu Shen, T. Shi, and Z. Shi.",
+      "title": "Domain Generalization Guided by Large-Scale Pre-Trained Priors",
+      "venue": "",
+      "year": 2024,
+      "arxiv": "2406.05628",
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2406.05628",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 2,
+      "authors": "Y. Tan, J. Wu, Y. Liu, Shiyu Shen, X. Xu, and B. Pan.",
+      "title": "A Lightweight Transformer-Based Spatiotemporal Analysis Prediction Algorithm for High-Dimensional Meteorological Data",
+      "venue": "Remote Sensing",
+      "year": 2024,
+      "pdf": "",
+      "url": "https://doi.org/10.3390/rs16234545",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 3,
+      "authors": "Shiyu Shen, B. Pan, Y. Wang, Y. Liu, and Z. Shi.",
+      "title": "A Second Order Stationarity Based Confidence Assessment Method for Temperature Forecast",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2025,
+      "pdf": "",
+      "url": "https://ieeexplore.ieee.org/document/10852282",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 4,
+      "authors": "Shiyu Shen, B. Pan, Z. Zhang, and Z. Shi.",
+      "title": "Hyperspectral Image Generation with Unmixing Guided Diffusion Model",
+      "venue": "",
+      "year": 2025,
+      "arxiv": "2506.02601",
+      "review": "IEEE TGRS",
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2506.02601",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 5,
+      "authors": "Shiyu Shen, B. Pan, and G. Xue.",
+      "title": "A Pretrained Probabilistic Transformer for City-Scale Traffic Volume Prediction",
+      "venue": "",
+      "year": 2025,
+      "arxiv": "2506.02654",
+      "review": "IEEE TMM",
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2506.02654",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 6,
+      "authors": "Shiyu Shen, Z. Gao, T. Chai, Y. Huang, and B. Pan.",
+      "title": "Contrastive Heliophysical Image Pretraining for Solar Dynamics Observatory Records",
+      "venue": "",
+      "year": 2025,
+      "arxiv": "2511.22958",
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2511.22958",
+      "link_status": "verified_withdrawn_arxiv_record"
+    },
+    {
+      "id": 7,
+      "authors": "Z. Gao, Shiyu Shen, X. Xiang, W. Li, Y. Gao, and Q. Fan.",
+      "title": "SmartSAM: Segment Ambiguous Objects like Smart Annotators",
+      "venue": "",
+      "year": 2025,
+      "pdf": "",
+      "url": "https://openreview.net/forum?id=08pxmTLKTT",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 8,
+      "authors": "Shiyu Shen, B. Pan, T. Shi, T. Li, and Z. Shi.",
+      "title": "Be Bayesian by Attachments to Catch More Uncertainty",
+      "venue": "Pattern Recognition",
+      "year": 2026,
+      "pdf": "",
+      "url": "https://doi.org/10.1016/j.patcog.2026.113084",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 9,
+      "authors": "B. Pan, Shiyu Shen, Z. Wang, Z. Shi, and X. Xu.",
+      "title": "Preserving Domain Generalization in Fine-Tuning via Joint Parameter Selection",
+      "venue": "IEEE Transactions on Multimedia",
+      "year": 2026,
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2508.16976",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 10,
+      "authors": "Z. Gao, Shiyu Shen, T. Chai, W. Wang, H. Xu, W. Li, et al.",
+      "title": "VideoTIR: Accurate Understanding for Long Videos with Efficient Tool-Integrated Reasoning",
+      "venue": "European Conference on Computer Vision (ECCV)",
+      "year": 2026,
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2603.25021",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 11,
+      "authors": "Shiyu Shen, B. Pan, T. Shi, T. Li, and Z. Shi.",
+      "title": "Bayesian Domain Invariant Learning via Posterior Generalization of Parameter Distributions",
+      "venue": "",
+      "year": 2026,
+      "arxiv": "2310.16277",
+      "review": "Pattern Recognition",
+      "pdf": "",
+      "url": "https://arxiv.org/abs/2310.16277",
+      "link_status": "verified_link"
+    },
+    {
+      "id": 12,
+      "authors": "Shiyu Shen, B. Pan, Z. Wang, and Z. Shi.",
+      "title": "A Distribution-Free Efficient Bayesian Framework for Domain Generalization",
+      "venue": "",
+      "year": 2026,
+      "review": "IEEE TMM",
+      "pdf": "",
+      "url": "",
+      "link_status": "scholar_search_only"
+    }
+  ],
+  "site": {
+    "base_url": "https://teemo341.github.io/io/",
+    "repository": "https://github.com/Teemo341/io",
+    "updated": "2026-09-12"
+  },
+  "person": {
+    "name": "Shiyu Shen",
+    "email": "shenshiyu@mail.nankai.edu.cn",
+    "phone": "(+86) 151 2233 9659",
+    "phone_uri": "+8615122339659",
+    "github": "https://github.com/Teemo341",
+    "scholar": "https://scholar.google.com/citations?user=rNZgWagAAAAJ&hl=en"
+  }
+}

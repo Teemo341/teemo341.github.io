@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local CV build intermediates; keep final .tex and .pdf tracked
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.synctex.gz
+cv/*.fdb_latexmk
+cv/*.fls
+.DS_Store
